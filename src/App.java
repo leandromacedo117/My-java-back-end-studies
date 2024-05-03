@@ -5,12 +5,11 @@ public class App {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Digite um numero ");
-        int numero = scanner.nextInt();
+        String primeiroNome = scanner.nextLine();
 
         System.out.println("Digite outro numero ");
-        int numero1 = scanner.nextInt(); 
-        int soma = numero1 + numero;
+        String segundoNome = scanner.nextLine(); 
 
-        System.out.println("A soma é igual: "+ soma);
+        System.out.println("Sua conta foi criada, seja bem-vindo " + primeiroNome + " "+ segundoNome+" !!");
     }
 }
